@@ -1,0 +1,6 @@
+[19-Jun-2018 13:56:54 UTC] PHP Fatal error:  Uncaught Magento\Framework\Exception\FileSystemException: The file "/var/www/html/Magento2/var/generation/Symfony/Component/Console/Input/ArrayInputFactory.php" cannot be deleted Warning!unlink(/var/www/html/Magento2/var/generation/Symfony/Component/Console/Input/ArrayInputFactory.php): Permission denied in /var/www/html/Magento2/vendor/magento/framework/Filesystem/Driver/File.php:382
+Stack trace:
+#0 /var/www/html/Magento2/vendor/magento/framework/Filesystem/Driver/File.php(405): Magento\Framework\Filesystem\Driver\File->deleteFile('/var/www/html/M...')
+#1 /var/www/html/Magento2/vendor/magento/framework/Filesystem/Driver/File.php(403): Magento\Framework\Filesystem\Driver\File->deleteDirectory('/var/www/html/M...')
+#2 /var/www/html/Magento2/vendor/magento/framework/Filesystem/Driver/File.php(403): Magento\Framework\Filesystem\Driver\File->deleteDirectory('/var/www/html/M...')
+#3 /var/www/html/Magento2/vendor/magento/framework/Filesystem/Driver/File.php(403): Magento\Framework\Filesystem\Driver\File->deleteDire in /var/www/html/Magento2/vendor/magento/framework/Filesystem/Driver/File.php on line 382
